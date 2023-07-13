@@ -13,6 +13,7 @@ function bypass() {
     sanitized = sanitized.replaceAll('c', 'с');
     sanitized = sanitized.replaceAll('C', 'С');
     sanitized = sanitized.replaceAll('x', 'х');
+    sanitized = sanitized.replaceAll('i', 'І');
     sanitized = sanitized.replaceAll('X', 'Х');
     sanitized = sanitized.replaceAll('p', 'р');
     sanitized = sanitized.replaceAll('P', 'Р');
